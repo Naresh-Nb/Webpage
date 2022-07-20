@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>My webpage</title>
+</head>
+
+<body>
+  <section id="home">
+    <header>
+      <nav>
+        <div class="logo">Naresh</div>
+        <i onclick="showMenu()" id="icon" class="fa fa-bars"></i>
+        
+        <ul id="open">
+                                   <i id="icon2" onclick="hideMenu()" class="fa fa-times"></i>
+          <li> <a href="#">Home</a></li>
+               <li> <a href="#">Gallery</a></li>
+                    <li> <a href="#">Contact</a></li>
+                         <li> <a href="#about">About</a></li>
+
+        </ul>
+      </nav>
+    </header>
+    <img src="/71eb73f0dae947ac42847ba29e054e0b.jpg">
+  </section>
+  <section id="about">
+    jejej
+  </section>
+<script>
+  let nav = document.getElementById("open");
+  function showMenu(){
+    nav.style.right="0";
+    
+  }
+  function hideMenu(){
+    nav.style.right="-200px";
+  }
+</script>
+</body>
+
+</html>
